@@ -26,12 +26,12 @@ function base()
 {
     return (
         <ol>
-            <li onClick={ nada }>MENU</li>
-            <li onClick={ nada }>MENU</li>
-            <li onClick={ nada }>MENU</li>
-            <li onClick={ nada }>MENU</li>
-            <li onClick={ nada }>MENU</li>
-            <li onClick={ nada }>MENU</li>
+            <li onClick={ nada }>API LENTA</li>
+            <li onClick={ nada }>nd</li>
+            <li onClick={ nada }>nd</li>
+            <li onClick={ nada }>nd</li>
+            <li onClick={ nada }>nd</li>
+            <li onClick={ nada }>nd</li>
         </ol>
     )
 }
