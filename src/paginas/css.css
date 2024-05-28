@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+    background: rgb(184, 235, 252);
+}
+
+li
+{
+    background: rgb(133, 119, 252);
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#MeusPaises{
+    display: flex;
+    justify-content: space-around;
+    
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+span div {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40vw;
+}
+
+div span button
+{
+    width: 10vh;
+    height: 10vh;
+    cursor: pointer;
+    margin: 10px;
+    background:  rgb(133, 119, 252);
+}
+
+div span img {
+    width: 15vh;
+border-radius: 50%;}
+div span button img {
+    width: 5vh;
+}
+
+button:active{
+    background: greenyellow;
+}
+
+li:active{
+    background: blue;
+}
+
